@@ -1,0 +1,105 @@
+* {
+
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+
+}
+
+/* STYLE GENERIQUE */
+
+
+body {
+
+    background-color: pink;
+ 
+}
+
+header {
+
+    color:blue;
+    width:100%;
+
+
+
+}
+
+nav {
+
+    background-color: yellow;
+    position:sticky;
+    top:0;
+    z-index:1;
+}
+
+
+main {
+
+    background-color: #AFB1CC;
+    width:70%;
+    padding:45px 30px;
+    margin:0 auto;
+    z-index: 10;
+
+}
+
+footer {
+
+    bottom:0;
+    position:fixed;
+    width:100%;
+    bottom:50%;
+
+}
+
+/* CLASS */
+
+.typo-verte {
+
+    color:green;
+}
+
+
+.bgc-gris {
+
+    background-color: #3C4242;
+
+}
+
+.mon-image {
+
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+
+}
+
+.ma-div {
+
+   
+    width:250px;
+    height:250px;
+    background-color: orange;
+    border: 4mm ridge brown;
+    clip-path: polygon(0% 0%, 0% 100%, 25% 100%, 25% 25%, 75% 25%, 75% 75%, 25% 75%, 25% 100%, 100% 100%, 100% 0%);
+  
+
+   
+}
+
+
+
+
+
+/* IDENTITY */
+
+#section1 {
+
+    background:linear-gradient(349deg, rgba(131,58,180,1) 0%, rgba(253,29,29,0.5) 50%, rgba(252,176,69,0.1) 100%),  url(images/programming-language-workplace\ copie.jpg) fixed center no-repeat;
+    background-size: cover;
+
+
+
+}
+
+
