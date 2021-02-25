@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=RocknRoll+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 * {
 
     box-sizing: border-box;
@@ -8,6 +10,25 @@
 
 /* STYLE GENERIQUE */
 
+h1, h2, h3, h4, h5, h6 {
+
+    font-family: 'RocknRoll One', sans-serif;
+
+}
+
+p, a {
+
+    font-family: 'Open Sans', sans-serif;
+}
+
+a {
+
+    text-decoration: none;
+    color:grey;
+
+    
+
+}
 
 body {
 
@@ -17,20 +38,47 @@ body {
 
 header {
 
-    color:blue;
     width:100%;
-
 
 
 }
 
 nav {
 
-    background-color: yellow;
+    background-color: #ffffff;
     position:sticky;
+    height:10vh;
     top:0;
     z-index:1;
+    
+
 }
+
+nav ul {
+
+    list-style-type: none;
+    display:flex;
+    flex-direction:row;
+    justify-content: space-around;
+    align-content: center;
+    height:100%;
+
+
+}
+
+nav li {
+
+    width:33.33%;
+    height:auto;
+    text-align:center;
+   
+}
+
+nav li:hover {
+
+    background-color:green ;
+}
+
 
 
 main {
@@ -48,16 +96,12 @@ footer {
     bottom:0;
     position:fixed;
     width:100%;
-    bottom:50%;
+    bottom:0;
 
 }
 
 /* CLASS */
 
-.typo-verte {
-
-    color:green;
-}
 
 
 .bgc-gris {
@@ -101,5 +145,6 @@ footer {
 
 
 }
+
 
 
